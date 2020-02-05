@@ -8,8 +8,11 @@
   border-bottom: 2% solid black;
   float: right;
   padding:2%
+}
 
-  }
+.location:hover { 
+  background-color: #0000ff; 
+}
 
 body {
   background-color: #000000;
@@ -41,7 +44,6 @@ nav {
 .arrow-left {
   background-color: #000;
   padding: 7px;
-
 }
 
 .restaurant-list {
