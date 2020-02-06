@@ -14,10 +14,23 @@
   background-color: #0000ff; 
 }
 
+.arrow {
+  display: inline;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+  top: -32px;
+}
+
 body {
   background-color: #000000;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
 }
 
 section {
@@ -35,7 +48,7 @@ section {
 }
 
 nav {
-  background-color: #000;
+  background-color: #000000;
   padding: 0;
   position: fixed;
   width: 418px;
@@ -47,6 +60,9 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border: 20px 15px;
   width: 100%;
+
 }
