@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #808080;
+  background-color: #Gray;
   font-family: sans-serif;
   font-size: 14px;
 }
@@ -13,7 +13,7 @@ section {
 }
 
 .container {
-  background-color: #ffffff;
+  background-color: #Gray;
   border: 1px solid #000000;
   padding-bottom: 0px;
   position: relative;
@@ -23,7 +23,7 @@ section {
 }
 
 .location {
-  background-color: #0000ff;
+  background-color: #Gray;
   width: 100%;
   border-bottom: 2% solid black;
   float: right;
@@ -43,12 +43,12 @@ section {
 }
 
 
-h1 {
+.restaurant-list h1 {
   font-weight: bold;
   font-size: 24px;
 }
 
-h3 {
+.restaurant-list h3 {
   font-weight: normal;
   font-size: 16px;
 }
@@ -71,5 +71,4 @@ nav {
   padding-bottom: 10px;
   border: 20px 15px;
   width: 100%;
-
 }
